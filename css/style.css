@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background-color: #999;
+}
+table {
+  border-collapse: collapse;
+}
+.hidden {
+  display: none !important;
+}
+.board {
+  margin-left: 35%;
+  position: relative;
+}
+.square:hover {
+  background-color: #ddd;
+}
+.square {
+  background-color: white;
+  padding: 0;
+  width: 99px;
+  height: 99px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 3em;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.win {
+  color:red;
+}
+#prompt {
+  display: block;
+  position: absolute;
+  font-size: 2em;
+  width: 250px;
+  margin-top: 25px;
+  margin-left: 25px;
+  height: 250px;
+  line-height: 1.5em;
+  border-radius: 30px;
+  text-align: center;
+  background-color: green;
+}
+#prompt div{
+  cursor: pointer;
+  font-size: .7em;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  width: 180px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #888;
+}
+#prompt div:hover {
+  background-color: #ccc;
+}
